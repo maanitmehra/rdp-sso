@@ -39,7 +39,7 @@ def grid_img(src_img, dest_img, num_rows, num_cols):
      except:
 		pass
 
-SRC_DIR_LIST  = ["./photos1/", "./photos2/", "./photos3/"]
+SRC_DIR_LIST  = ["./photos1/", "./photos2/photos/", "./photos3/photos/"]
 
 for SRC_DIR in SRC_DIR_LIST:
    DEST_DIR = "./grid_" + SRC_DIR[2:]
